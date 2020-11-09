@@ -6,6 +6,8 @@ if (arg.length === 1 && arg[0] === "config") {
     require('../lib/cmdEntrance/startServerCommand');
 } else if (arg.length === 1 && arg[0] === "init") {
     require('../lib/cmdEntrance/initCommand');
+} else if (arg.length === 1 && arg[0] === "-v") {
+    require('../lib/cmdEntrance/version');
 } else {
     require('../lib/cmdEntrance');
 }
