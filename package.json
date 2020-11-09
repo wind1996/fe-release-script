@@ -1,0 +1,20 @@
+{
+  "name": "fe-release-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "bin": {
+    "fe-release-script": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "ora": "^5.1.0",
+    "shelljs": "^0.8.4"
+  }
+}
