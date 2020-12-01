@@ -40,6 +40,8 @@ node ./node_modules/fe-release-script/bin/index.js init && node ./node_modules/f
 
 #### fe-release-script start
 去 hosts 的机器上的 targetDir/projectName目录上执行配置的 startCmd。用于首次部署项目时，启动服务。
+#### 配置文件
+1. 配置文件的 buildShell 配置项增加对异步函数的支持。
 
 ## 注意
 - 确保用户对所配置的 tmpDir 目录有写入权限
