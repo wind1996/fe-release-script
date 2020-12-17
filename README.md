@@ -46,3 +46,5 @@ node ./node_modules/fe-release-script/bin/index.js init && node ./node_modules/f
 ## 注意
 - 确保用户对所配置的 tmpDir 目录有写入权限
 - 确保服务器上已经通过配置使得服务器上可以无密码使用su命令
+
+## UPDATE PM2 LIST
