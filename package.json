@@ -8,12 +8,15 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bin/index.js"
+    "start": "node bin/index.js",
+    "test-to-aly-oss": "node test/fileToAlyOss.test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ali-oss": "^6.11.2",
     "chalk": "^4.1.0",
+    "glob": "^7.1.6",
     "inquirer": "^7.3.3",
     "ora": "^5.1.0",
     "shelljs": "^0.8.4"
