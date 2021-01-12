@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bin/index.js",
-    "test-to-aly-oss": "node test/fileToAlyOss.test.js"
+    "test-to-aly-oss": "node test/fileToAlyOss.test.js",
+    "test-parse-config": "node test/parseConfig.test.js"
   },
   "author": "",
   "license": "ISC",
